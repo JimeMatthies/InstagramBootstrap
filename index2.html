@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="uft-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <title>Instagram with Bootstrap</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" href="/index.html">
+                    <i class="fa-brands fa-instagram" style="font-size: 32px;"></i>
+                    <img src="https://cdn.discordapp.com/attachments/421821798263422976/1011754585100124160/instalogo.png" alt="Instagram" width="120" height="35" class="d-inline-block img-fluid aling-top" loading="lazy">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-success mx-2 my-sm-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Creat a new post
+                            </button>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-gear"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Log out</a></li>
+                            </ul>
+                        </li>  
+                    </ul>
+                </div>
+            </div>
+        </nav>   
+        <div class="row">
+            <div class="col-12 p-2">
+                <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                    <a class="btn btn-outline-secondary me-md-2" href="/index.html">
+                        <i class="fa-solid fa-table-cells"></i>
+                    </a>
+                    <a class="btn btn-outline-secondary me-md-2" href="/index2.html">
+                        <i class="fa-solid fa-square"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-5">
+                <div class="card my-3">
+                    <div class="card-header d-flex justify-content-between">
+                        <h5 class="card-title">My first photo</h5>
+                        <span>17/07</span> 
+                    </div>
+                    <img src="https://picsum.photos/id/104/500/350" class="card-img-top">
+                    <div class="card-body">
+                        <b>23 Likes</b>
+                        <p class="card-text">This is my first photo of the feed. This is a multi line comment for testing purposes. I am learning to code with <strong>#BreathCode</strong></p>
+                        <p><i class="fa-regular fa-heart pe-2"></i>Comment</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-5">
+                <div class="card my-3">
+                    <div class="card-header d-flex justify-content-between">
+                        <h5 class="card-title">Some cute thing</h5>
+                        <span>18/07</span> 
+                    </div>
+                    <img src="https://picsum.photos/id/237/500/350" class="card-img-top">
+                    <div class="card-body">
+                        <b>32 Likes</b>
+                        <p class="card-text">The internet aproves this cute dog...<strong>#BreathCode</strong></p>
+                        <p><i class="fa-regular fa-heart pe-2"></i>Comment</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-5">
+                <div class="card my-3">
+                    <div class="card-header d-flex justify-content-between">
+                        <h5 class="card-title">There is a paparazzi around...</h5>
+                        <span>19/07</span> 
+                    </div>
+                    <img src="https://picsum.photos/id/1/500/350" class="card-img-top">
+                    <div class="card-body">
+                        <b>54 Likes</b>
+                        <p class="card-text">This is me waiting for the screen to show my awesome first website made at <strong>#BreathCode</strong></p>
+                        <p><i class="fa-regular fa-heart pe-2"></i>Comment</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-5">
+                <div class="card my-3">
+                    <div class="card-header d-flex justify-content-between">
+                        <h5 class="card-title">And of course... food!</h5>
+                        <span>20/07</span> 
+                    </div>
+                    <img src="https://picsum.photos/id/889/500/350" class="card-img-top">
+                    <div class="card-body">
+                        <b>80 Likes</b>
+                        <p class="card-text">Because no photo feed is cool without some food on it! <strong>#BreathCode</strong></p>
+                        <p><i class="fa-regular fa-heart pe-2"></i>Comment</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-5">
+                <div class="card my-3">
+                    <div class="card-header d-flex justify-content-between">
+                        <h5 class="card-title">Vamos a la playa!</h5>
+                        <span>21/07</span> 
+                    </div>
+                    <img src="https://picsum.photos/id/162/500/350" class="card-img-top">
+                    <div class="card-body">
+                        <b>50 Likes</b>
+                        <p class="card-text">Donde estan mis vacaciones?</p>
+                        <p><i class="fa-regular fa-heart pe-2"></i>Comment</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-5">
+                <div class="card my-3">
+                    <div class="card-header d-flex justify-content-between">
+                        <h5 class="card-title">Cabellera!</h5>
+                        <span>22/07</span> 
+                    </div>
+                    <img src="https://picsum.photos/id/1009/500/350" class="card-img-top">
+                    <div class="card-body">
+                        <b>48 Likes</b>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut obcaecati, assumenda voluptatem delectus repudiandae quasi quam molestias, ratione magnam earum aperiam quibusdam alias consequatur deleniti? Quam unde molestiae officiis?</p>
+                        <p><i class="fa-regular fa-heart pe-2"></i>Comment</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-5">
+                <div class="card my-3">
+                    <div class="card-header d-flex justify-content-between">
+                        <h5 class="card-title">Montaña</h5>
+                        <span>23/07</span> 
+                    </div>
+                    <img src="https://picsum.photos/id/479/500/350" class="card-img-top">
+                    <div class="card-body">
+                        <b>24 Likes</b>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, corrupti. Sint voluptates aliquid numquam odit fugiat molestiae! Perspiciatis et aliquid hic tempore, rerum ratione? Possimus iure architecto reprehenderit et atque.</p>
+                        <p><i class="fa-regular fa-heart pe-2"></i>Comment</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-5">
+                <div class="card my-3">
+                    <div class="card-header d-flex justify-content-between">
+                        <h5 class="card-title">Lago</h5>
+                        <span>24/07</span> 
+                    </div>
+                    <img src="https://picsum.photos/id/865/500/350" class="card-img-top">
+                    <div class="card-body">
+                        <b>51 Likes</b>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus doloribus quidem soluta sit. Sapiente, recusandae, rem quasi repellendus veritatis perspiciatis architecto ratione sed a maxime optio tempora quis itaque dignissimos.</p>
+                        <p><i class="fa-regular fa-heart pe-2"></i>Comment</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-5">
+                <div class="card my-3">
+                    <div class="card-header d-flex justify-content-between">
+                        <h5 class="card-title">Ciudad</h5>
+                        <span>25/07</span> 
+                    </div>
+                    <img src="https://picsum.photos/id/61/500/350" class="card-img-top">
+                    <div class="card-body">
+                        <b>29 Likes</b>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, impedit necessitatibus vel eveniet, quam repellat doloribus consectetur exercitationem incidunt dolore ratione quasi quo quos, nesciunt quidem fugiat aliquam illum quae.</p>
+                        <p><i class="fa-regular fa-heart pe-2"></i>Comment</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Create a new post</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                  ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-success">Publish</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    </body>
+</html>
